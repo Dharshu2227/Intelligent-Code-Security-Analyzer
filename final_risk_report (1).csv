@@ -1,0 +1,3 @@
+File,Line,Issue,Severity,Security Rule,Recommendation,Similarity
+sample.py,26,Hardcoded password found in source code,HIGH,Avoid Hardcoded Credentials,"Passwords, API keys, tokens and other secrets should not be directly written inside source code. Use environment variables or a secure secret manager.",0.381
+sample.py,10,Potential security issue detected,MEDIUM,Least Privilege,"Give users, applications and services only the permissions required to perform their tasks.",0.0

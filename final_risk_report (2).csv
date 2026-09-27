@@ -1,0 +1,4 @@
+File,Line,Issue,Severity,Confidence,Test_ID,Security_Rule,Recommendation,Similarity,Average_Complexity,Risk_Score,Risk_Level
+./sample.py,2,Consider possible security implications associated with the subprocess module.,LOW,HIGH,B404,Least Privilege,"Give users, applications and services only the permissions required to perform their tasks.",0.0,1.5,12,MEDIUM
+./sample.py,4,Possible hardcoded password: 'admin123',LOW,MEDIUM,B105,Password Storage,Passwords should never be stored as plain text. Use a strong password hashing algorithm with appropriate salt.,0.311,1.5,12,MEDIUM
+./sample.py,12,"subprocess call with shell=True identified, security issue.",HIGH,HIGH,B602,Command Injection Prevention,Avoid passing untrusted input directly to operating system commands. Prefer safe APIs and validate allowed input.,0.216,1.5,12,MEDIUM
